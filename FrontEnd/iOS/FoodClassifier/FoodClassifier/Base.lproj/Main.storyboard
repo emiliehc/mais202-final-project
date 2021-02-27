@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5X-GL-f9f">
-                                <rect key="frame" x="166.66666666666666" y="130" width="94.999999999999972" height="30"/>
+                                <rect key="frame" x="166.66666666666666" y="74" width="94.999999999999972" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="yGv-eT-c8j"/>
                                 </constraints>
@@ -26,8 +26,8 @@
                                     <action selector="onUploadButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J4V-aU-Ka6"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="192" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ih9-8T-JCF">
-                                <rect key="frame" x="0.0" y="197" width="428" height="351"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="192" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ih9-8T-JCF">
+                                <rect key="frame" x="0.0" y="141" width="428" height="351"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ih9-8T-JCF" secondAttribute="height" multiplier="428:351" id="eQA-1Q-gUG"/>
                                 </constraints>
@@ -36,9 +36,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="i5X-GL-f9f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="86" id="4lm-ky-gO7"/>
+                            <constraint firstItem="Ih9-8T-JCF" firstAttribute="top" secondItem="i5X-GL-f9f" secondAttribute="bottom" constant="37" id="39j-up-GDa"/>
                             <constraint firstItem="Ih9-8T-JCF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ru2-59-FZx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ih9-8T-JCF" secondAttribute="bottom" constant="204" id="fyK-Vs-uvu"/>
                             <constraint firstItem="i5X-GL-f9f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gRD-tn-Zrw"/>
+                            <constraint firstItem="i5X-GL-f9f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ivp-S6-AVb"/>
                             <constraint firstItem="Ih9-8T-JCF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vyh-JP-ibT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ih9-8T-JCF" secondAttribute="trailing" id="z1a-bv-gfF"/>
                         </constraints>
